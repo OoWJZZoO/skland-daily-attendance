@@ -2,7 +2,7 @@ name: attendance
 
 on:
   schedule:
-    - cron: '0 16 * * *'
+    - cron: '0 21 * * *' # 21:00 UTC = 北京时间次日 05:00
   workflow_dispatch:
   workflow_call:
     secrets:
